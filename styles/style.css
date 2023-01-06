@@ -24,15 +24,16 @@ main, .footer-info-container{
   background-color: lightcyan;
 }
 .all-titles{
+
   font-size: 40px;
 }
+
 /* top banner */
 header{
   background-image: url(../images/banner/banner3.png);
   mask-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 .banner-container{
   color: aliceblue;
   text-align: end;
@@ -93,6 +94,7 @@ header{
 .clock-text{
   padding: 70px 70px;
 }
+
 /* footer */
 footer{
   background-color: black;
