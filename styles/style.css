@@ -2,8 +2,12 @@
   margin: 0;
 }
 
+/* Common part */
+main, .footer-info-container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .contact-button{
-  color: rgb(119, 210, 240);
   background-color: aliceblue;
   padding: 10px 10px;
   font-size: larger;
@@ -11,7 +15,16 @@
   border: none;
   border-radius: 5px;
 }
-
+.contact-button a{
+  color: rgb(119, 210, 240);
+  text-decoration: none;
+}
+.contact-button:hover{
+  background-color: lightcyan;
+}
+.all-titles{
+  font-size: 40px;
+}
 /* top banner */
 header{
   background-image: url(../images/banner/banner3.png);
@@ -25,8 +38,75 @@ header{
   padding: 270px;
 }
 .banner-title{
-  font-size: xx-large;
+  font-size: 50px;
 }
 .banner-discription{
-  padding: 20px 0px 35px 700px;
+  padding: 20px 0px 35px 750px;
+}
+
+/* body part */
+.body-container{
+  display: flex;
+  gap: 100px;
+  padding: 90px;
+  align-items: center;
+}
+.body-description{
+  padding: 17px 0;
+}
+.body-list img{
+  height: 14px;
+}
+
+/* my-plans-part*/
+.my-plans{
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.plans-details{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.myplans-sub-title{
+  padding: 10px;
+}
+
+/* bottom banner */
+.clock-container{
+  background-image:
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(17, 121, 218, 0.774)),
+    url('../images/watch.png');
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.bottom-banner-title{
+  color: aliceblue;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.clock-text{
+  padding: 70px 70px;
+}
+/* footer */
+footer{
+  background-color: black;
+}
+.footer-parent{
+  display: flex;
+  color: aliceblue;
+  padding: 80px;
+}
+.footer-description{
+  padding: 20px 50px 20px 0;
+}
+.footer-phone{
+  margin: 10px 0 15px 0;
+}
+.footer-input{
+  margin: 15px 0 8px 0;
 }
