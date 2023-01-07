@@ -75,7 +75,7 @@ header{
 }
 .flex-item{
   align-items: center;
-  padding: 8px;
+  padding: 5px;
 }
 .extra-logo{
   height: 40px;
@@ -90,7 +90,7 @@ header{
     background-size: cover;
     color: white;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .bottom-banner-title{
   color: aliceblue;
@@ -98,7 +98,7 @@ header{
   margin-bottom: 20px;
 }
 .bottom-banner-text{
-  padding: 70px 70px;
+  padding: 50px 70px;
 }
 
 /* footer */
