@@ -4,7 +4,7 @@
 }
 
 /* Common part */
-main, .footer-info-container{
+main, .banner-container, .footer-info-container{
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -15,6 +15,7 @@ main, .footer-info-container{
   font-weight: bolder;
   border: none;
   border-radius: 5px;
+  margin-top: 15px;
 }
 .contact-button a{
   color: rgb(119, 210, 240);
@@ -24,7 +25,6 @@ main, .footer-info-container{
   background-color: lightcyan;
 }
 .all-titles{
-
   font-size: 40px;
 }
 
@@ -37,13 +37,10 @@ header{
 .banner-container{
   color: aliceblue;
   text-align: end;
-  padding: 270px;
+  padding: 270px 70px;
 }
 .banner-title{
   font-size: 50px;
-}
-.banner-discription{
-  padding: 20px 0px 35px 750px;
 }
 
 /* body part */
@@ -76,7 +73,7 @@ header{
 }
 
 /* bottom banner */
-.clock-container{
+.bottom-banner-container{
   background-image:
     linear-gradient(to left, rgba(255, 255, 255, 0), rgba(17, 121, 218, 0.774)),
     url('../images/watch.png');
@@ -91,7 +88,7 @@ header{
   font-size: 50px;
   margin-bottom: 20px;
 }
-.clock-text{
+.bottom-banner-text{
   padding: 70px 70px;
 }
 
@@ -111,5 +108,5 @@ footer{
   margin: 10px 0 15px 0;
 }
 .footer-input{
-  margin: 15px 0 8px 0;
+  margin: 15px 0 0 0;
 }
